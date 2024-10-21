@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+header{
+    height: 122px;
+    display: flex;
+    overflow: unset;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+    background-image: linear-gradient(180deg, #FFFFFF 0%, #DBDBDB 100%);
+    justify-content: space-around;
+}
+
+#botoes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+i{
+    padding: 2px;
+    border-radius: 100px;
+    padding: 4px;
+    background-color: grey;
+    color: white;
+}
+
+#bi-search{
+    border: 100px;
+}
+
+i:hover{
+    padding: 2px;
+    border-radius: 100px;
+    padding: 4px;
+    background-color: white;
+    color: grey;
+    transition: 0.2s;
+}
+
+.subHeader{
+    background-image: linear-gradient(180deg, #FFFFFF 0%, #DBDBDB 100%);
+    display: flex;
+    justify-content: space-evenly;
+    color: #003c6a;
+}
+
+#itaipuimg img{
+    height: 70px;
+}
+
+#habitante{
+    padding: 4px;
+    border-radius: 30px;
+    background-image: linear-gradient(180deg, #bababa 0%, #626262 100%);
+    color: white;
+    margin: 5px;
+    transition: 0.2s;
+}
+
+#blog{
+    padding: 4px;
+    border-radius: 30px;
+    background-image: linear-gradient(180deg, #003ce2 0%, #001f8f 100%);
+    color: white;
+    margin: 5px;
+    border: 2px;
+    transition: 0.2s;
+}
+
+#blog:hover{
+    padding: 2px;
+    border-radius: 30px;
+    background-image: none;
+    color: #003ce2;
+    margin: 5px;
+    border: 2px;
+    border-color: #003ce2;
+    border-style: solid;
+    transition: 0.2s;
+}
+
+#habitante:hover{
+    padding: 2px;
+    border-radius: 30px;
+    background-image: none;
+    color: #bababa;
+    margin: 5px;
+    border: 2px;
+    border-color: #bababa;
+    border-style: solid;
+    transition: 0.2s;
+}
+
+.subHeader div{
+    padding: 10px;
+    transition: 0.2s;
+}
+
+.subHeader div:hover{
+    border: 10px;
+    background-color: white;
+    height: 100%;
+    transition: 0.2s;
+}
